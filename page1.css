@@ -208,6 +208,18 @@ img{
 
     }
     
+    .footer1{
+    
+    margin-top: 28%%;
+    margin-left: 10%;
+    width: 90%;
+    display: inline-block; 
+    
+ }
+ 
+ .contactos{width: 100%}
+ .social{width: 100%;}
+    
  }
  
   @media ( max-width:425px ){
@@ -233,6 +245,18 @@ img{
 
  
     }
+    
+    .footer1{
+    
+    margin-top: 60%;
+    margin-left: 10%;
+    width: 90%;
+    display: inline-block; 
+    
+ }
+ 
+ .contactos{width: 100%}
+ .social{width: 100%;}
     
  }
  
@@ -267,6 +291,18 @@ img{
 
  
     }
+    
+    .footer1{
+    
+    margin-top: 60%;
+    margin-left: 10%;
+    width: 90%;
+    display: inline-block; 
+    
+ }
+ 
+ .contactos{width: 100%}
+ .social{width: 100%;}
     
  }
 

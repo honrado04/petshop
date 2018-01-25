@@ -1,0 +1,469 @@
+   
+    html, body { height: 100%; }
+    
+    
+    body{
+        margin: 0px;
+    }
+    
+    a { text-decoration: none; }
+    
+    div#tema1 a {
+								background-color: rgba(0, 0, 0, 0.6);
+								color: white;
+							   }
+
+    div#tema1 a:hover { background-color: rgba(0, 0, 222, 0.6);}
+    
+    div#tema2 a {
+								background-color: rgba(0, 0, 0, 0.6);
+								color: white;
+							   }
+
+    div#tema2 a:hover { background-color: rgba(0, 0, 222, 0.6);}
+    
+    div#tema3 a {
+								background-color: rgba(0, 0, 0, 0.6);
+								color: white;
+                                
+							   }
+
+    div#tema3 a:hover { background-color: rgba(0, 0, 222, 0.6);}
+    
+    div#tema4 a {
+								background-color: rgba(0, 0, 0, 0.6);
+								color: white;
+                                
+							   }
+
+    div#tema4 a:hover { background-color: rgba(0, 0, 222, 0.6);}
+        
+    h1{
+        text-align: center;
+    }
+
+    #conteudo{
+        
+        overflow:hidden;
+        
+    }
+    
+    #footer{
+        overflow:hidden;
+        background-color: 	#FFFF00;
+    }
+    
+    @media ( min-width:946px ){
+        
+        a{
+            position: relative;
+        }
+
+        
+        #conteudo{
+            
+            width: 100%;
+            height: 100%;
+            overflow:hidden;
+            
+        }
+        
+        #tema1{
+            
+            width: 50%;
+            height: 80%;
+            float: left;
+            max-width: 100%;
+            
+        }
+        
+        div#tema1 a {
+					
+                padding: 20px;
+                top:80%;
+                left:5%;
+                width: 20%;
+                display: inline-block;
+
+                  
+                    }
+        
+        #tema2{
+            
+            width: 25%;
+            height: 40%;
+            max-width: 100%;
+            
+            float: right;
+        }
+
+        div#tema2 a {
+								
+                padding: 20px;
+                top:65%;
+                left:5%;
+                width: 23%;
+                display: inline-block;
+                    
+                      }
+        
+        #tema3{
+                            
+            width: 25%;
+            height: 40%;
+            max-width: 100%;
+            
+            float: right;
+            
+        }
+        
+        div#tema3 a {
+					
+                padding: 20px;
+                top:65%;
+                left:5%;
+                width: 23%;
+                display: inline-block;
+                    
+                }
+        
+        #tema4{
+                            
+            width: 50%;
+            height: 40%;
+            max-width: 100%;
+        }
+
+        div#tema4 a {
+								
+                padding: 20px;
+                top:65%;
+                left:5%;
+                width: 15%;
+                display: inline-block;
+				
+                   }
+        
+        #footer{
+            width: 100%;
+            height: 20%;
+            max-width: 100%;
+            
+            float: right;
+        }
+        
+        #tema1{
+        
+            background-size: cover;
+            
+            overflow:hidden;
+            
+            background-image: url("imagens/tema1_3.jpg");
+            
+            background-repeat: no-repeat;
+        }
+          
+        #tema2{
+            
+            background-size: cover;
+            overflow:hidden;
+            background-image: url("imagens/tema2_3.jpg");
+            
+            background-repeat: no-repeat;
+            
+        }
+        
+        #tema3{
+            
+            background-size: cover;
+            overflow:hidden;
+            background-image: url("imagens/tema3_3.jpg");
+            
+            background-repeat: no-repeat;
+        }
+        
+        #tema4{
+            
+            background-size: cover;
+            overflow:hidden;
+            background-image: url("imagens/tema4_3.png");
+            
+            background-repeat: no-repeat;
+            
+        }
+        
+    }
+    
+    @media ( min-width:605px ) and ( max-width:945px ){
+        
+        a{
+            position: relative;
+        }
+
+        
+        #conteudo{
+            
+            width: 100%;
+            height: 100%;
+            overflow:scroll;
+            
+        }
+        
+        #tema1{
+            
+            width: 100%;
+            height: 50%;
+            max-width: 100%;
+            
+            float: left;
+            
+        }
+        
+        div#tema1 a {
+					
+                padding: 20px;
+                top:70%;
+                left:5%;
+                width: 15%;
+                display: inline-block;
+                  
+                    }
+        
+        #tema2{
+            
+            width: 50%;
+            height: 50%;
+            max-width: 100%;
+            
+            float: right;
+        }
+    
+        div#tema2 a {
+								
+                padding: 20px;
+                top:70%;
+                left:5%;
+                width: 15%;
+                display: inline-block;
+                    
+                      }
+        
+        #tema3{
+                            
+            width: 50%;
+            height: 50%;
+            max-width: 100%;
+            
+            float: right;
+            
+        }
+        
+        div#tema3 a {
+					
+                padding: 20px;
+                top:70%;
+                left:5%;
+                width: 15%;
+                display: inline-block;
+                    
+                }
+        
+        #tema4{
+                            
+            width: 100%;
+            height: 50%;
+            max-width: 100%;
+        }
+
+        div#tema4 a {
+								
+                padding: 20px;
+                top:70%;
+                left:5%;
+                width: 10%;
+                display: inline-block;
+				
+                   }
+        
+        #footer{
+            width: 100%;
+            height: 20%;
+            max-width: 100%;
+            
+            float: right;
+        }
+        
+        #tema1{
+        
+            background-size: cover;
+            
+            overflow:hidden;
+            
+            background-image: url("imagens/tema1_2.jpg");
+            
+            background-repeat: no-repeat;
+        }
+          
+        #tema2{
+            
+            background-size: cover;
+            overflow:hidden;
+            background-image: url("imagens/tema2_2.jpg");
+            
+            background-repeat: no-repeat;
+            
+        }
+        
+        #tema3{
+            
+            background-size: cover;
+            overflow:hidden;
+            background-image: url("imagens/tema3_2.jpg");
+            
+            background-repeat: no-repeat;
+        }
+        
+        #tema4{
+            
+            background-size: cover;
+            overflow:hidden;
+            background-image: url("imagens/tema4_3.png");
+            
+            background-repeat: no-repeat;
+            
+        }
+        
+    }
+    
+     @media ( max-width:604px ){
+        
+        a{
+            position: relative;
+        }
+        
+        #conteudo{
+            
+            width: 100%;
+            height: 100%;
+            overflow:scroll;
+            
+        }
+        
+        
+        #tema1{
+            
+            width: 100%;
+            height: 40%;
+            max-width: 100%;
+            
+        }
+        
+        div#tema1 a {
+					
+                padding: 20px;
+                top:70%;
+                left:5%;
+                width: 34%;
+                display: inline-block;
+                  
+                    }
+        
+        #tema2{
+            
+            width: 100%;
+            height: 40%;
+            max-width: 100%;
+        }
+        
+        div#tema2 a {
+								
+                padding: 20px;
+                top:70%;
+                left:5%;
+                width: 34%;
+                display: inline-block;
+                    
+                      }
+        
+        #tema3{
+                            
+            width: 100%;
+            height: 40%;
+            max-width: 100%;
+            
+        }
+        
+        div#tema3 a {
+					
+                padding: 20px;
+                top:70%;
+                left:5%;
+                width: 34%;
+                display: inline-block;
+                    
+                }
+        
+        #tema4{
+                            
+            width: 100%;
+            height: 40%;
+            max-width: 100%;
+        }
+        
+        div#tema4 a {
+								
+                padding: 20px;
+                top:70%;
+                left:5%;
+                width: 34%;
+                display: inline-block;
+				
+                   }
+        
+        #footer{
+            width: 100%;
+            height: 20%;
+            max-width: 100%;
+        }
+        
+        #tema1{
+        
+            background-size: cover;
+            
+            overflow:hidden;
+            
+            background-image: url("imagens/tema1_1.jpg");
+            
+            background-repeat: no-repeat;
+        }
+          
+        #tema2{
+            
+            background-size: cover;
+            overflow:hidden;
+            background-image: url("imagens/tema2_1.jpg");
+            
+            background-repeat: no-repeat;
+            
+        }
+        
+        #tema3{
+            
+            background-size: cover;
+            overflow:hidden;
+            background-image: url("imagens/tema3_1.jpg");
+            
+            background-repeat: no-repeat;
+        }
+        
+        #tema4{
+            
+            background-size: cover;
+            overflow:hidden;
+            background-image: url("imagens/tema4_1.jpg");
+            
+            background-repeat: no-repeat;
+            
+        }
+        
+    }

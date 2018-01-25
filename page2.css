@@ -1,0 +1,248 @@
+ @media ( min-width:800px ){
+  
+  body{
+    
+    margin: 0;
+    width: 90%;
+    margin: 6% auto auto;
+    
+  }
+   
+   div.lista{
+    
+      overflow: hidden;
+      margin-bottom: 10%;
+    
+   }
+   
+    div.gallery {
+      margin-top: 6%;
+      border: 1px solid #ccc;
+      float: left;
+      width: 30%;
+      height: 
+      overflow: hidden;
+      margin-left: 12%;
+    }
+
+    div.gallery img {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+    }
+    
+    div.desc {
+        padding: 10%;
+        text-align: center;
+    }
+    
+ }
+ 
+ @media ( max-width:799px ){
+
+  body{
+    
+    margin: 0;
+    width: 90%;
+    margin: 10% auto auto;
+    
+  }
+   
+   div.lista{
+    
+      overflow: hidden;
+          margin-bottom: 2em;
+    
+   }
+   
+    div.gallery {
+      margin-top: 6%;
+      border: 1px solid #ccc;
+      float: left;
+      overflow: hidden;
+    }
+
+    div.gallery img {
+        height: auto;
+        max-width: 100%;
+        float:left;
+        overflow: hidden;
+        width: 30%;
+    }
+    
+    div.desc {
+        padding: 5%;
+        text-align: center;
+       
+        overflow: hidden;
+            width: 60%;
+    float: right;
+    }
+    
+ }
+ 
+  @media ( max-width:697px ){
+
+  body{
+    
+    margin: 0;
+    width: 90%;
+    margin: 24% auto auto;
+    
+  }
+   
+   div.lista{
+    
+      overflow: hidden;
+          margin-bottom: 2em;
+    
+   }
+   
+    div.gallery {
+      margin-top: 6%;
+      border: 1px solid #ccc;
+      float: left;
+      overflow: hidden;
+    }
+
+    div.gallery img {
+        height: auto;
+        max-width: 100%;
+        float:left;
+        overflow: hidden;
+        width: 30%;
+    }
+    
+    div.desc {
+        padding: 5%;
+        text-align: center;
+       
+        overflow: hidden;
+            width: 60%;
+    float: right;
+    }
+    
+ }
+
+  @media ( max-width:602px ){
+
+  body{
+    
+    margin: 0;
+    width: 90%;
+    margin: 27% auto auto;
+    
+  }
+   
+   div.lista{
+    
+      overflow: hidden;
+          margin-bottom: 2em;
+    
+   }
+   
+    div.gallery {
+      margin-top: 6%;
+      border: 1px solid #ccc;
+      float: left;
+      overflow: hidden;
+    }
+
+    div.gallery img {
+        height: auto;
+        max-width: 100%;
+        float:left;
+        overflow: hidden;
+        width: 30%;
+    }
+    
+    div.desc {
+        padding: 5%;
+        text-align: center;
+       
+        overflow: hidden;
+            width: 60%;
+    float: right;
+    }
+    
+ }
+ 
+   @media ( max-width:516px ){
+
+  body{
+    
+    margin: 0;
+    width: 90%;
+    margin: 35% auto auto;
+    
+  }
+   
+   div.lista{
+    
+      overflow: hidden;
+    
+   }
+   
+    div.gallery {
+      margin-top: 6%;
+      border: 1px solid #ccc;
+      float: left;
+      overflow: hidden;
+    }
+
+    div.gallery img {
+        height: auto;
+        max-width: 100%;
+        overflow: hidden;
+        width: 90%;
+    }
+    
+    div.desc {
+        padding: 5%;
+        text-align: center;
+       
+        overflow: hidden;
+            width: 90%;
+    }
+    
+ }
+ 
+   @media ( max-width:388px ){
+
+  body{
+    
+    margin: 0;
+    width: 90%;
+    margin: 60% auto auto;
+    
+  }
+   
+   div.lista{
+    
+      overflow: hidden;
+    
+   }
+   
+    div.gallery {
+      margin-top: 6%;
+      border: 1px solid #ccc;
+      float: left;
+      overflow: hidden;
+    }
+
+    div.gallery img {
+        height: auto;
+        max-width: 100%;
+        overflow: hidden;
+        width: 90%;
+    }
+    
+    div.desc {
+        padding: 5%;
+        text-align: center;
+       
+        overflow: hidden;
+            width: 90%;
+    }
+    
+ }

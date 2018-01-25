@@ -6,13 +6,6 @@ body{
     
 }
 
-.galeria{
-    
-    margin-top: 13%;
-    display: inline-block;
-    
-}
-
 #frase{
     
     margin-top: 3%;
@@ -127,6 +120,13 @@ img{
         
     }
     
+    .galeria{
+    
+        margin-top: 13%;
+        display: inline-block;
+        
+    }
+    
  }
  
  @media ( max-width:1099px ){
@@ -142,6 +142,13 @@ img{
         margin-left: 30%;
         width: 40%;
         text-align: justify;
+        
+    }
+   
+    .galeria{
+    
+        margin-top: 13%;
+        display: inline-block;
         
     }
     
@@ -160,6 +167,13 @@ img{
         margin-left: 30%;
         width: 40%;
         text-align: justify;
+        
+    }
+ 
+     .galeria{
+    
+        margin-top: 13%;
+        display: inline-block;
         
     }
     
@@ -181,6 +195,13 @@ img{
         
     }
     
+    .galeria{
+     
+       margin-top: 61%;
+       display: inline-block;
+
+    }
+    
  }
  
   @media ( max-width:425px ){
@@ -199,9 +220,25 @@ img{
         
     }
     
+    .galeria{
+     
+       margin-top: 61%;
+        display: inline-block;
+
+ 
+    }
+    
  }
  
    @media ( max-width:373px ){
+    
+    body{
+        
+        margin: 0;
+        width: 106%;
+        height: 100%;
+        
+    }
 
     h2{
         margin-left: 25%;
@@ -215,6 +252,14 @@ img{
         margin-left: auto;
         margin-right: auto;
         
+    }
+
+    .galeria{
+     
+       margin-top: 61%;
+        display: inline-block;
+
+ 
     }
     
  }

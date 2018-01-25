@@ -127,6 +127,8 @@ img{
         
     }
     
+     .gallery:nth-child(2n+1) {     clear: left; }
+    
  }
  
  @media ( max-width:1099px ){
@@ -152,6 +154,8 @@ img{
         
     }
     
+     .gallery:nth-child(2n+1) {     clear: left; }
+    
  }
  
   @media ( max-width:910px ){
@@ -176,6 +180,8 @@ img{
         display: inline-block;
         
     }
+    
+     .gallery:nth-child(2n+1) {     clear: left; }
     
  }
  
